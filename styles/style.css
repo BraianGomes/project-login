@@ -47,3 +47,7 @@ section#login > div#image{
     background-position: center center;
     height: 200px;
 }
+
+section#login > div#form{
+    padding: 10px;
+}
