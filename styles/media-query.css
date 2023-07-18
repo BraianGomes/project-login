@@ -13,7 +13,8 @@
     body{
         width: 100vw;
         height: 100vh;
-        background: url(../images/backgroundlogin.jpg);
+        background: url(../images/backgroundlargescreen1.jpg);
+        background-position: bottom right;
     }
     
     section#login{
