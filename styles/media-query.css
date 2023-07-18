@@ -1,6 +1,20 @@
 @charset "UTF-8";
 
+:root{
+    --bluegray: #6185A4;
+    --lightblue:#40A6FF;
+    --darkblue:#248FED;
+    --yellowbrown:#A16300;
+    --lightyellow:#EFAC41;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px){
+
+    body{
+        background-image: linear-gradient(to top, );
+    }
+
+
     section#login{
         width: 75vw;
     }
