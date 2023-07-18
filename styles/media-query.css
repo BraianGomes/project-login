@@ -11,10 +11,11 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body{
-        background-image: linear-gradient(to top, );
+        width: 100vw;
+        height: 100vh;
+        background: url(../images/backgroundlogin.jpg);
     }
-
-
+    
     section#login{
         width: 75vw;
     }
