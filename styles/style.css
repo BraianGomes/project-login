@@ -42,6 +42,7 @@ section#login{
 }
 
 section#login > div#image{
+    display: block;
     background: var(--darkblue) url(../images/backgroundlogin.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
@@ -49,5 +50,6 @@ section#login > div#image{
 }
 
 section#login > div#form{
+    display: block;
     padding: 10px;
 }
