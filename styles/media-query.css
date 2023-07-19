@@ -31,7 +31,49 @@
         float: right;
         width: 70%;
     }
+
+    form > input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 85%;
+        height: 35px;
+        background-color: var(--bluegray);
+        color: white;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
     
+    form > input[type=submit]:hover{
+        background-color: var(--yellowbrown);
+    }
+    
+    form > a.buttom{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 85%;
+        height: 35px;
+        padding-top: 5px;
+        margin: auto;
+        margin-top: 5px;
+        color: white;
+        background-color: var(--lightblue);
+        border: 1px solid var(--darkblue);
+        border-radius: 8px;
+        text-decoration: none;
+    }
+    
+    form > a.buttom > i{
+        font-size: 0.7em;
+}
+    
+    form > a.buttom:hover{
+        background-color: var(--lightyellow);
+        color: black;
+    }
 }
 
 @media screen and (min-width:992px) {
@@ -62,6 +104,50 @@
     
     div#form > p{
         font-size: 1.2em;
+    }
+
+    form > input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 85%;
+        height: 35px;
+        background-color: var(--bluegray);
+        color: white;
+        margin: auto;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    form > input[type=submit]:hover{
+        background-color: var(--yellowbrown);
+    }
+    
+    form > a.buttom{
+        display: block;
+        text-align: center;
+        font-size: 1em;
+        width: 85%;
+        height: 35px;
+        padding-top: 5px;
+        margin: auto;
+        margin-top: 5px;
+        color: white;
+        background-color: var(--lightblue);
+        border: 1px solid var(--darkblue);
+        border-radius: 8px;
+        text-decoration: none;
+    }
+    
+    form > a.buttom > i{
+        font-size: 0.7em;
+}
+    
+    form > a.buttom:hover{
+        background-color: var(--lightyellow);
+        color: black;
+    
     }
 }
 
