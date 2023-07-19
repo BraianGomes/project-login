@@ -92,7 +92,7 @@ form > a.buttom{
     color: white;
     background-color: var(--lightblue);
     border: 1px solid var(--darkblue);
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
 }
 
