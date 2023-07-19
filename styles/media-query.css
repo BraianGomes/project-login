@@ -61,7 +61,8 @@
     }
     
     form > input[type=submit]:hover{
-        background-color: var(--yellowbrown);
+        background-color: var(--lightyellow);
+        color: black;
     }
     
     form > a.buttom{
@@ -149,7 +150,8 @@
     }
     
     form > input[type=submit]:hover{
-        background-color: var(--yellowbrown);
+        background-color: var(--lightyellow);
+        color: black;
     }
     
     form > a.buttom{
