@@ -33,16 +33,19 @@
                     <div class="campo">
                         
                         <i class="material-icons">account_circle</i>
-                        <input type="email" name="login" id="idlogin" placeholder="your e-mail" autocomplete="email">
+                        <input type="email" name="login" id="idlogin" placeholder="your e-mail" autocomplete="email" required maxlength="30">
                         <label for="idlogin">Login</label>
                     </div>
 
                     <div class="campo">
                         
                         <i class="material-icons">lock</i>
-                        <input type="password" name="password" id="idpassword" placeholder="your password" autocomplete="current-password">
+                        <input type="password" name="password" id="idpassword" placeholder="your password" autocomplete="current-password" required minlength="8" max="13">
                         <label for="password">Password</label>
                     </div>
+
+                    <input type="submit" value="Entry">
+                    <a href="forget.html">Forget Password <i class="material-icons">mail</i></a>
 
                 </form>
 
