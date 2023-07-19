@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media-query.css">
     
@@ -26,14 +28,21 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faca seu login para acessar sua conta e poder configurar seu ambiente</p>
 
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
 
                     <div class="campo">
+                        
+                        <i class="material-icons">account_circle</i>
+                        <input type="email" name="login" id="idlogin" placeholder="your e-mail" autocomplete="email">
                         <label for="idlogin">Login</label>
-                        <input type="email" name="login" id="idlogin">
                     </div>
 
-                    <div class="campo">Password</div>
+                    <div class="campo">
+                        
+                        <i class="material-icons">lock</i>
+                        <input type="password" name="password" id="idpassword" placeholder="your password" autocomplete="current-password">
+                        <label for="password">Password</label>
+                    </div>
 
                 </form>
 
