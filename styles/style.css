@@ -67,6 +67,7 @@ div#form > p{
 
 form > div.campo{
     background-color: var(--yellowbrown);
+    border: 2px solid var(--yellowbrown);
     display: block;
     width: 100%;
     height: 35px;
@@ -80,17 +81,17 @@ div.campo > label{
 
 div.campo > i{
     color: white;
-    background-color: black;
     font-size: 2em;
-    width: 40px;
-    padding: 5px;
+    margin-right: 180px;
 }
 
 div.campo > input{
-    background-color: var(--lightyellow);
+    background-color: var(--lightblue);
     font-size: 1em;
-    width: 100%;
+    margin-right: 0px;
+    width: calc(100% - 40px);
     height: 100%;
+    transform: translateY(-36px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
