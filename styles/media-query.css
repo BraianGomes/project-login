@@ -46,6 +46,12 @@
         display: none;
     }
 
+    div.campo > i{
+        color: white;
+        font-size: 2em;
+        margin-right: 365px;
+    }
+
     form > input[type=submit]{
         display: block;
         font-size: 1em;
@@ -133,6 +139,12 @@
     
     div.campo > label{
         display: none;
+    }
+
+    div.campo > i{
+        color: white;
+        font-size: 2em;
+        margin-right: 320px;
     }
 
     form > input[type=submit]{

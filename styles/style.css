@@ -123,7 +123,7 @@ form > a.buttom{
     padding-top: 5px;
     margin-top: 5px;
     color: white;
-    background-color: var(--lightblue);
+    background-color: var(--bluegray);
     border: 1px solid var(--darkblue);
     border-radius: 8px;
     text-decoration: none;
