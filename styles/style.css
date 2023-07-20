@@ -63,6 +63,7 @@ div#form{
 
 div#form > p{
     font-size: 0.8em;
+    margin: 10px 0px;
 }
 
 form > div.campo{
