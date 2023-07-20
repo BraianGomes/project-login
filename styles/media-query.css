@@ -104,6 +104,7 @@
         width: 100vw;
         height: 100vw;
         background-image: url(../images/backgroundsky.jpg);
+        background-repeat: no-repeat;
     }
     section#login{
         width: 900px;
