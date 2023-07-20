@@ -51,7 +51,7 @@
         font-size: 1em;
         width: 85%;
         height: 35px;
-        background-color: var(--bluegray);
+        background-color: var(--lightblue);
         color: white;
         margin: auto;
         margin-top: 5px;
@@ -75,7 +75,7 @@
         margin: auto;
         margin-top: 5px;
         color: white;
-        background-color: var(--lightblue);
+        background-color:var(--bluegray);
         border: 1px solid var(--darkblue);
         border-radius: 8px;
         text-decoration: none;
@@ -140,7 +140,7 @@
         font-size: 1em;
         width: 85%;
         height: 35px;
-        background-color: var(--bluegray);
+        background-color: var(--lightblue);
         color: white;
         margin: auto;
         margin-top: 5px;
@@ -164,7 +164,7 @@
         margin: auto;
         margin-top: 5px;
         color: white;
-        background-color: var(--lightblue);
+        background-color: var(--bluegray);
         border: 1px solid var(--darkblue);
         border-radius: 8px;
         text-decoration: none;

@@ -88,7 +88,7 @@ div.campo > i{
 div.campo > input{
     background-color: var(--lightblue);
     font-size: 1em;
-    margin-right: 0px;
+    margin-left: 40px;
     width: calc(100% - 40px);
     height: 100%;
     transform: translateY(-36px);
@@ -102,7 +102,7 @@ form > input[type=submit]{
     font-size: 1em;
     width: 100%;
     height: 35px;
-    background-color: var(--bluegray);
+    background-color: var(--lightblue);
     color: white;
     border-radius: 5px;
     border: none;
@@ -131,11 +131,9 @@ form > a.buttom{
 
 form > a.buttom > i{
     font-size: 0.7em;
-
 }
 
 form > a.buttom:hover{
     background-color: var(--lightyellow);
     color: black;
-
 }
